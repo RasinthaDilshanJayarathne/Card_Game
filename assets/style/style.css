@@ -16,6 +16,14 @@ body {
     background-size:cover;
 }
 
+#hourglass{
+    position: absolute;
+    top: 3vh;
+    width: 8vw;
+    left: 85vw;
+   /* transform: rotateX(180deg);*/
+}
+
 .deck {
     height: 100%;
     width: 100%;
