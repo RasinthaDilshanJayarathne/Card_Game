@@ -29,6 +29,22 @@ body {
     50% {transform: rotate(180deg);}
 }
 
+#button > img{
+    position: absolute;
+    top: 3vh;
+    width: 6vw;
+    left: 5vw;
+}
+
+#button > img:hover{
+    /*animation: mymove1 10s infinite;*/
+    width: 8vw;
+}
+
+@keyframes mymove1 {
+    50% {transform: rotate(180deg);}
+}
+
 .deck {
     height: 100%;
     width: 100%;
